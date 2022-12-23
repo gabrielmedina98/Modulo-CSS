@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            background: #007fc7;
+        }
+
+        #conteiner {
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            position: relative;
+
+        }
+
+        h1 {}
+
+        p {
+            width: 300px;
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            left: 0px;
+            bottom: 1px;
+        }
+
+        .absolute {
+            position: absolute;
+            border: 1px solid red;
+            top: 200px;
+            right: 100px;
+            background-color: #4CAF50;
+        }
+
+        .fixed {
+            /* para posição fixas e usual chatbots que mantem fixado mesmo rolando a pagina , usado também menus*/
+            position: fixed;
+            border: 1px solid red;
+            top: 50px;
+            right: 2px;
+        }
+
+        .sticky {
+            /* é posicionado com base na posição de rolagem do usuário.*/
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="conteiner">
+        <h1> Posicionamentos </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ab et veniam omnis laborum dolores officia
+            accusantium, libero, molestiae eaque maxime nemo sunt quae perferendis earum eius ullam ducimus magnam.</p>
+        <p class="relative">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat odit consectetur
+            expedita, veritatis aliquid dolorum necessitatibus deleniti quo voluptatum esse voluptatibus id quos qui
+            nesciunt voluptatem porro ab distinctio vero.</p>
+        <p class="sticky">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non obcaecati asperiores animi qui
+            provident repellendus? Dolorem animi cumque corporis iure repellendus optio eos, ad voluptatum blanditiis
+            consequatur quos, libero est.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima et sed quae, voluptate est repudiandae quia
+            atque, omnis fugiat in quidem deserunt numquam iste sint ducimus commodi odio quas! Vitae!
+        </p>
+
+
+        <p class="fixed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquam obcaecati
+            dignissimos consectetur accusamus esse ea suscipit dolor provident similique explicabo accusantium nihil,
+            iure voluptatum voluptates, culpa exercitationem quibusdam nulla!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, eveniet dolor! Illo voluptas corporis omnis
+            voluptates dignissimos facere assumenda maxime architecto perspiciatis iusto id voluptatum adipisci
+            similique quidem, tempore dolor?</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, eveniet dolor! Illo voluptas corporis omnis
+            voluptates dignissimos facere assumenda maxime architecto perspiciatis iusto id voluptatum adipisci
+            similique quidem, tempore dolor?</p>
+        <p class="absolute">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, eveniet dolor! Illo voluptas
+            corporis omnis voluptates dignissimos facere assumenda maxime architecto perspiciatis iusto id voluptatum
+            adipisci similique quidem, tempore dolor?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, eveniet dolor! Illo voluptas corporis omnis
+            voluptates dignissimos facere assumenda maxime architecto perspiciatis iusto id voluptatum adipisci
+            similique quidem, tempore dolor?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, eveniet dolor! Illo voluptas corporis omnis
+            voluptates dignissimos facere assumenda maxime architecto perspiciatis iusto id voluptatum adipisci
+            similique quidem, tempore dolor?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, eveniet dolor! Illo voluptas corporis omnis
+            voluptates dignissimos facere assumenda maxime architecto perspiciatis iusto id voluptatum adipisci
+            similique quidem, tempore dolor?</p>
+
+
+    </div>
+</body>
+
+</html>
