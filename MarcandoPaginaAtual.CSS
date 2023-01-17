@@ -1,0 +1,41 @@
+/*ul{
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+}
+
+li{
+    padding: 5px 20px;
+    background: url(arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat left center;
+}*/
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+}
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background: #fb6000 url(arquivos-necessarios-barra-navegacao-vertical/arquivos-necessarios-barra-navegacao-vertical/menu.png) left bottom; /*Sempre que possível recarregar o background caso a imagem nao recarregue tera um background*/
+    text-indent:40px;
+    line-height: 40px;
+    
+
+}
+
+a:hover .selecionado a{ 
+    background-position: right bottom;
+    color: #fff;
+    background-color: #f99200;
+}
+
+#navegacao #home .home a, #navegacao #sobre .sobre a , #navegacao #contato .contato{
+    background-position: right bottom;
+    color: #fff;
+    background-color: #f99200;
+
+}

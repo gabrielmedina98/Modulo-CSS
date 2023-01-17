@@ -1,0 +1,33 @@
+*{ /*Seletor universal*/
+    border: 1px solid red;
+}
+
+p.verde{ /*Seletor de classe apenas os paragrafos vão receber a classe*/
+}
+
+/*Seletor de filho*/
+
+li>a{/*Seleciona quaisquer elementos que são filhos de um elemento <li>, mas não outros elementos*/
+
+}
+
+/*Seletor Descendente*/
+
+div a{/*Seleciona quaisquer elemestos que residem dentro de um elemento, não precisa ser o filho direto*/
+
+}
+
+/*Seletor Adjacente*/
+
+p+a{/*Seleciona o irmão adjacente, ou seja, apos a proxima tag*/
+
+}
+
+/*Seletor de irmão geral */
+
+h1~a{/*Seleciona todas tag que foi pedida e que são irmãs ou seja todas apos a tag, mas mantendo na mesma ninhagem*/
+
+}
+
+
+
